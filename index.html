@@ -1548,7 +1548,7 @@
               <div class="px-3.5 py-2.5 rounded-xl bg-slate-50 border border-slate-200/70 flex items-center justify-between">
                 <div class="flex items-center gap-2">
                   <span class="w-2 h-2 rounded-full ${IS_PREVIEW ? "bg-amber-500" : "bg-emerald-500"}"></span>
-                  <span class="text-xs font-semibold text-slate-600">${IS_PREVIEW ? "Mode Preview" : "Live GAS"}</span>
+                  <span class="text-xs font-semibold text-slate-600">${IS_PREVIEW ? "Mode Preview" : "Live Connected"}</span>
                 </div>
                 ${
                   IS_PREVIEW
@@ -1872,7 +1872,7 @@
             <div class="space-y-1">
               <div class="inline-flex items-center gap-2 text-xs font-bold text-blue-600">
                 <i data-lucide="sparkles" class="w-3.5 h-3.5"></i>
-                <span>Dashboard Monitoring Kepala Sekolah & Tim Kurikulum</span>
+                <span>Dashboard Monitoring</span>
               </div>
               <h2 class="text-lg sm:text-xl font-extrabold text-slate-900">
                 Selamat Bertugas, ${escapeHtml(state.currentUser.Nama_Lengkap)}
@@ -2604,7 +2604,7 @@
                       }"
                     >
                       <i data-lucide="${st === "Guru" ? "graduation-cap" : "briefcase"}" class="w-4 h-4 ${active ? "text-blue-600" : "text-slate-400"}"></i>
-                      <span class="text-xs font-bold">${st === "Guru" ? "Guru / Pendidik" : "Tenaga Kependidikan"}</span>
+                      <span class="text-xs font-bold">${st === "Guru" ? "Guru" : "Tendik"}</span>
                     </button>
                   `;
                 })
