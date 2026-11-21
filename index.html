@@ -6,9 +6,9 @@
   <meta name="theme-color" content="#2563EB" />
   <meta name="apple-mobile-web-app-capable" content="yes" />
   <meta name="apple-mobile-web-app-status-bar-style" content="default" />
-  <meta name="apple-mobile-web-app-title" content="SIM-BANGKOM GTK" />
-  <meta name="description" content="Sistem Informasi Manajemen Laporan Pengembangan Kompetensi Guru & Tenaga Kependidikan (SIM-BANGKOM GTK)" />
-  <title>SIM-BANGKOM GTK — Manajemen Pengembangan Kompetensi Guru & Tendik</title>
+  <meta name="apple-mobile-web-app-title" content="KOMPETEN" />
+  <meta name="description" content="Pelaporan Kompetensi Guru & Tenaga Kependidikan (KOMPETEN)" />
+  <title>KOMPETEN - Pelaporan Kompetensi Guru & Tendik</title>
 
   <!-- Dynamic PWA Manifest & Apple Touch Icon injected via JS -->
   <link id="pwa-manifest-link" rel="manifest" href="" />
@@ -169,7 +169,7 @@
        ========================================================================= -->
   <img
     id="blogger-hidden-thumbnail"
-    alt="SIM-BANGKOM GTK Badge"
+    alt="KOMPETEN Badge"
     style="display:none !important; width:0; height:0;"
     src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='512' height='512' viewBox='0 0 512 512'%3E%3Cdefs%3E%3ClinearGradient id='bg' x1='0%25' y1='0%25' x2='100%25' y2='100%25'%3E%3Cstop offset='0%25' stop-color='%232563EB'/%3E%3Cstop offset='100%25' stop-color='%230D9488'/%3E%3C/linearGradient%3E%3C/defs%3E%3Crect width='512' height='512' rx='112' fill='url(%23bg)'/%3E%3Crect x='116' y='88' width='220' height='284' rx='28' fill='%23FFFFFF' fill-opacity='0.96'/%3E%3Crect x='152' y='136' width='148' height='18' rx='9' fill='%232563EB'/%3E%3Crect x='152' y='176' width='112' height='14' rx='7' fill='%2394A3B8'/%3E%3Crect x='152' y='208' width='132' height='14' rx='7' fill='%23CBD5E1'/%3E%3Ccircle cx='348' cy='336' r='84' fill='%23F59E0B' stroke='%23FFFFFF' stroke-width='14'/%3E%3Cpath d='M316 336l22 22 44-44' fill='none' stroke='%23FFFFFF' stroke-width='16' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E"
   />
@@ -229,9 +229,9 @@
       if (appleIcon) appleIcon.href = iconDataUri;
 
       const manifestObj = {
-        name: "SIM-BANGKOM GTK",
-        short_name: "SIM-BANGKOM",
-        description: "Sistem Informasi Manajemen Laporan Pengembangan Kompetensi Guru & Tendik",
+        name: "KOMPETEN",
+        short_name: "KOMPETEN",
+        description: "Pelaporan Kompetensi Guru & Tendik",
         start_url: ".",
         display: "standalone",
         theme_color: "#2563EB",
@@ -1183,8 +1183,7 @@
                 <i data-lucide="award" class="w-5 h-5"></i>
               </div>
               <div>
-                <span class="text-sm font-extrabold tracking-tight text-slate-900">SIM-BANGKOM</span>
-                <span class="ml-1 text-xs font-bold px-1.5 py-0.5 rounded-md bg-blue-100 text-blue-700">GTK</span>
+                <span class="text-sm font-extrabold tracking-tight text-slate-900">KOMPETEN</span>
               </div>
             </div>
             <div class="flex items-center gap-2">
@@ -1248,8 +1247,8 @@
                   </div>
                   <div>
                     <div class="text-xs font-bold uppercase tracking-wider text-blue-600">SMA Negeri 1 Nusantara</div>
-                    <h2 class="text-lg font-extrabold text-slate-900">Masuk ke SIM-BANGKOM</h2>
-                    <p class="text-xs text-slate-500">Gunakan akun GTK atau Administrator sekolah</p>
+                    <h2 class="text-lg font-extrabold text-slate-900">Portal Login</h2>
+                    <p class="text-xs text-slate-500">Silahkan menggunakan akun Anda!</p>
                   </div>
                 </div>
 
@@ -1262,7 +1261,7 @@
                 <!-- Login Form -->
                 <form id="login-form" class="mt-5 space-y-4">
                   <div>
-                    <label for="login-username" class="block text-xs font-bold text-slate-700 mb-1.5">Username / ID Pengguna</label>
+                    <label for="login-username" class="block text-xs font-bold text-slate-700 mb-1.5">Username</label>
                     <div class="relative">
                       <span class="absolute inset-y-0 left-0 pl-3.5 flex items-center text-slate-400">
                         <i data-lucide="user" class="w-4 h-4"></i>
@@ -1279,7 +1278,7 @@
                   </div>
 
                   <div>
-                    <label for="login-password" class="block text-xs font-bold text-slate-700 mb-1.5">Kata Sandi</label>
+                    <label for="login-password" class="block text-xs font-bold text-slate-700 mb-1.5">Password</label>
                     <div class="relative">
                       <span class="absolute inset-y-0 left-0 pl-3.5 flex items-center text-slate-400">
                         <i data-lucide="lock" class="w-4 h-4"></i>
@@ -1326,8 +1325,7 @@
                       class="p-2.5 rounded-xl bg-slate-50 hover:bg-blue-50 border border-slate-200 hover:border-blue-300 text-left transition group"
                     >
                       <div class="flex items-center justify-between">
-                        <span class="text-xs font-bold text-slate-900 group-hover:text-blue-700">Admin / Kepsek</span>
-                        <span class="px-1.5 py-0.5 rounded-md text-[10px] font-bold bg-blue-100 text-blue-700">Admin</span>
+                      
                       </div>
                       <div class="text-[11px] text-slate-500 mt-0.5 tabular-nums">admin / edudigital</div>
                     </button>
@@ -1351,7 +1349,7 @@
 
           <!-- Footer -->
           <div class="max-w-6xl w-full mx-auto text-center text-xs text-slate-500">
-            SIM-BANGKOM GTK v2.0 &bull; Digitalisasi Pengembangan Kompetensi Berkelanjutan Guru & Tenaga Kependidikan
+            :copy 2026 Tim IT Spenpatko
           </div>
         </div>
       `;
@@ -1519,7 +1517,7 @@
                 </div>
                 <div>
                   <div class="flex items-center gap-1.5">
-                    <span class="text-base font-extrabold tracking-tight text-slate-900">SIM-BANGKOM</span>
+                    <span class="text-base font-extrabold tracking-tight text-slate-900">KOMPETEN</span>
                     <span class="text-[10px] font-extrabold px-1.5 py-0.5 rounded-md bg-blue-50 text-blue-600 border border-blue-200/70">GTK</span>
                   </div>
                   <p class="text-[11px] font-medium text-slate-500 mt-0.5">SMA Negeri 1 Nusantara</p>
@@ -1616,7 +1614,7 @@
                 </div>
                 <div class="min-w-0">
                   <div class="flex items-center gap-1.5">
-                    <span class="text-sm font-extrabold text-slate-900 truncate">SIM-BANGKOM GTK</span>
+                    <span class="text-sm font-extrabold text-slate-900 truncate">KOMPETEN</span>
                     <span class="px-1.5 py-0.5 rounded-md text-[10px] font-bold ${isAdmin ? "bg-blue-100 text-blue-700" : "bg-teal-100 text-teal-700"}">
                       ${isAdmin ? "Admin" : user.Status_Pegawai}
                     </span>
@@ -1782,7 +1780,7 @@
       // Logout buttons
       const handleLogout = () => {
         openConfirmModal({
-          title: "Keluar dari SIM-BANGKOM GTK?",
+          title: "Keluar?",
           message: "Sesi Anda akan diakhiri. Draft laporan yang belum dikirim tetap tersimpan aman di perangkat ini.",
           confirmLabel: "Ya, Keluar",
           danger: true,
@@ -3741,7 +3739,7 @@
                           </div>
                           <div>
                             <div class="text-xs font-bold line-clamp-1">${escapeHtml(report.Penyelenggara)}</div>
-                            <div class="text-[10px] text-teal-300 mt-0.5">Arsip Dokumentasi SIM-BANGKOM GTK</div>
+                            <div class="text-[10px] text-teal-300 mt-0.5">Arsip Dokumentasi</div>
                           </div>
                         </div>
                       `
@@ -4471,8 +4469,8 @@
         <div style="font-family: 'Plus Jakarta Sans', sans-serif; color: #0F172A; max-width: 780px; margin: 0 auto;">
           <div style="border-bottom: 3px double #0F172A; padding-bottom: 12px; margin-bottom: 20px; text-align: center;">
             <div style="font-size: 12px; font-weight: 700; letter-spacing: 1px; text-transform: uppercase;">PEMERINTAH PROVINSI &bull; DINAS PENDIDIKAN</div>
-            <div style="font-size: 18px; font-weight: 800; margin-top: 2px;">SMA NEGERI 1 NUSANTARA</div>
-            <div style="font-size: 11px; color: #475569; margin-top: 2px;">Sistem Informasi Manajemen Laporan Pengembangan Kompetensi Guru & Tendik (SIM-BANGKOM GTK)</div>
+            <div style="font-size: 18px; font-weight: 800; margin-top: 2px;">UPTD SMP NEGERI 4 SATU ATAP KONANG</div>
+            <div style="font-size: 11px; color: #475569; margin-top: 2px;">Pelaporan Kompetensi Guru & Tendik (KOMPETEN)</div>
           </div>
 
           <div style="text-align: center; margin-bottom: 20px;">
@@ -4543,9 +4541,9 @@
       printArea.innerHTML = `
         <div style="font-family: 'Plus Jakarta Sans', sans-serif; color: #0F172A; max-width: 780px; margin: 0 auto;">
           <div style="border-bottom: 3px double #0F172A; padding-bottom: 12px; margin-bottom: 20px; text-align: center;">
-            <div style="font-size: 12px; font-weight: 700; text-transform: uppercase;">SMA NEGERI 1 NUSANTARA</div>
+            <div style="font-size: 12px; font-weight: 700; text-transform: uppercase;">UPTD SMP NEGERI 4 SATU ATAP KONANG</div>
             <div style="font-size: 17px; font-weight: 800; margin-top: 2px;">REKAPITULASI PORTOFOLIO PENGEMBANGAN KOMPETENSI GTK</div>
-            <div style="font-size: 11px; color: #475569;">Tahun Pelajaran 2026/2027 &bull; Dicetak dari SIM-BANGKOM GTK</div>
+            <div style="font-size: 11px; color: #475569;">Tahun Pelajaran 2026/2027 &bull; Dicetak dari KOMPETEN</div>
           </div>
 
           <table style="width: 100%; font-size: 12px; margin-bottom: 16px;">
@@ -4644,7 +4642,7 @@
             </div>
             <div class="flex-1 min-w-0">
               <div class="flex items-center justify-between gap-2">
-                <h4 class="text-xs font-extrabold text-slate-900">Instal SIM-BANGKOM GTK</h4>
+                <h4 class="text-xs font-extrabold text-slate-900">Instal KOMPETEN</h4>
                 <button type="button" id="dismiss-install-banner-btn" class="text-slate-400 hover:text-slate-600 p-0.5">
                   <i data-lucide="x" class="w-4 h-4"></i>
                 </button>
@@ -4695,7 +4693,7 @@
             const choice = await state.deferredPrompt.userChoice;
             state.deferredPrompt = null;
             if (choice && choice.outcome === "accepted") {
-              showToast("Aplikasi SIM-BANGKOM GTK sedang dipasang!", "success");
+              showToast("Aplikasi KOMPETEN sedang dipasang!", "success");
             }
             closeBanner();
           } else {
